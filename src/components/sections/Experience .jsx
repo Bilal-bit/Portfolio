@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { fadeInUp } from "./../animation";
+import { fadeInUp } from "../../animation";
 function Experience() {
     const experiencePoints = [
         "Developed and maintained front-end features using React and Next.js",

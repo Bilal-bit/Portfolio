@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
-import { fadeInUp } from "./../animation";
+import { fadeInUp } from "../../animation";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 function Contact() {
     return (

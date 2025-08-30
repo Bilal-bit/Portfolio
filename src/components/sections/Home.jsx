@@ -1,7 +1,7 @@
 import React from 'react'
-import img from "./../assets/second.jpg"
+import img from "../../assets/second.jpg"
 import { motion } from "framer-motion";
-import { fadeInUp } from "./../animation";
+import { fadeInUp } from "../../animation";
 function Home() {
     return (
         <div className='w-full p-2 md:p-32'>

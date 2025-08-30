@@ -1,7 +1,8 @@
 import React from 'react'
-import data from './../data'
+import navLinks, { data } from "../../data.jsx";
+
 import { motion } from "framer-motion";
-import { fadeInUp } from "./../animation";
+import { fadeInUp } from "../../animation";
 function Skills() {
     return (
         <motion.section className='w-full p-2 md:p-32 py-5 md:py-20' id='skills'
@@ -25,7 +26,7 @@ function Skills() {
 
 
             <div className='center-wrap gap-4 sm:gap-3'>
-                {data.map((item) => (
+                {navLinks.map((item) => (
                     <div className="aspect-square w-20 sm:w-18 xs:w-16 md:w-20 border border-gray-700 rounded-lg shadow-md  flex flex-col items-center justify-center p-2 sm:p-1.5 cursor-pointer overflow-hidden relative hover:shadow-lg dark:hover:shadow-cyan-500/50 transition-all duration-300 group">
                         <div className="p-2 sm:p-1.5" style={{ transform: "scale(0.8) rotate(-0.0385895deg)" }}>
                             <img
