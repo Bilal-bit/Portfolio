@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "../../assets/second.jpg"
+import img from "../../assets/3d.png"
 import { motion } from "framer-motion";
 import { fadeInUp } from "../../animation";
 function Home() {
@@ -17,7 +17,7 @@ function Home() {
                             src={img}
                             alt="Portfolio showcase"
                             decoding="async"
-                            className="relative max-w-auto md:max-w-lg max-h-[480px]  object-cover rounded-xl shadow-2xl border border-gray-200/50 dark:border-gray-700/50 w-auto md:w-full h-auto"
+                            className="relative max-w-auto md:max-w-lg max-h-[520px] "
                         />
 
                     </div>
